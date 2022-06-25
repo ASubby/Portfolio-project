@@ -55,3 +55,12 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+
+.btn-design {
+  color: var(--branding-color);
+  background-color: white;
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 15px 30px;
+}
