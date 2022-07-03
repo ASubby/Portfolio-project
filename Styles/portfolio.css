@@ -34,6 +34,16 @@ p {
   line-height: 30px;
 }
 
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -104,6 +114,10 @@ p {
 
 .project-description {
   padding: 100px 40px;
+}
+
+.logo {
+  max-width: 150px;
 }
 
 @media (max-width: 960px) {
