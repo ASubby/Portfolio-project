@@ -40,10 +40,22 @@ nav ul {
 }
 
 nav li {
+  margin-left: 15px;
   display: inline;
   list-style: none;
+  line-height: 42px;
 }
 
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -117,7 +129,7 @@ nav li {
 }
 
 .logo {
-  max-width: 150px;
+  max-height: 40px;
 }
 
 @media (max-width: 960px) {
@@ -138,5 +150,9 @@ nav li {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
