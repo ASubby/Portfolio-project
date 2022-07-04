@@ -30,6 +30,32 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="container">
+    <nav class="d-flex justify-content-between">
+      <a href="/">
+          <img src="/images/logo.png" class="logo d-none d-md-block" alt="Subomi Logo" />
+          <img
+            src="/images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Subomi Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Subomi">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Subomi's work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Subomi">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <div class="content-container container">
       <div class="row">
         <div class="col-md-6">
@@ -42,18 +68,51 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="#" class="btn btn-branding">View all project </a>
+            <a href="/work.html" class="btn btn-branding">View all projects </a>
           </div>
         </div>
         <div class="col-md-6">
           <img
-            src="/images/image 38.png"
+            src="/images/picture.jpeg"
             class="img-fluid rounded"
-            alt=""
-            srcset=""
-          />
+            alt="Adesubomi"/>
         </div>
       </div>
+       <footer>
+        <div class="contact-box mb-5  d-flex justify-content-between d-none d-md-flex">
+          <div>
+          <h4>
+            Work Enquiry
+          </h4>
+        <p class="text-muted">
+            Let's work together
+          </p>
+          </div>
+          <div>
+          <a href="/contact.html" title="Contact Subomi" class="btn btn-branding mt-3"> 
+            Contact me
+           </a>
+           </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:subomiadegbite@gmail.com" title="Email Subomi" class="email-link">subomiadegbite@gmail.com</a>
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a href="https://www.instagram.com/shoobiey" title="Github Profile" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.github.com/ASubby" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.twitter.com/adeitannn" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Adesubomi and it is 
+          <a href="https://github.com/ASubby/Portfolio-project"> open-sourced</a>
+        </p>
+     </footer>
     </div>
   </body>
 </html>
